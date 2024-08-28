@@ -1,6 +1,5 @@
 import OpenAI from "openai";
 import { ARK_API_KEY } from "../../config/config-doubao.js";
-import * as MYCONFIG from "../../config/config.js";
 
 const openai = new OpenAI({
   apiKey: ARK_API_KEY,

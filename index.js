@@ -12,8 +12,6 @@ import qrcodeTerminal from "qrcode-terminal";
 import { sendMessage } from "./src/core/sendMessage.js";
 import { robotName } from "./config/config.js";
 
-import { randomImg } from "./src/api/index.js";
-randomImg();
 // 扫描二维码
 function onScan(qrCode, status) {
   if (status === ScanStatus.Waiting || status === ScanStatus.Timeout) {
